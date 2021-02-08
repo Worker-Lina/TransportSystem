@@ -3,14 +3,16 @@ namespace Enum
 {
     public enum TariffPlans
     {
-        MonthlyPassCity = 7500, //7500 tg
-        MonthlyPassCityExpress = 1000,  //1000 tg
-        MonthlyPassCitySuburb = 9500,  //9500 tg
-        MonthlyPassCitySuburbExpress = 13500,  //13500 tg
-        ThreeMonthPass = 20000, //20 000
-        DailyPass, //500
-        ThreeDayPass, //1500
-        FiveDayPass, //1500
+        OneTripPrace = 90,
+        MonthlyPassCity = 7500, 
+        MonthlyPassCityExpress = 10000,  
+        MonthlyPassCitySuburb = 9500, 
+        MonthlyPassCitySuburbExpress = 13500,  
+        ThreeMonthPass = 20000, 
+        DailyPass = 500,
+        ThreeDayPass = 1500,
+        FiveDayPass = 2000, 
+        FifteenDayPass = 4000, 
         
     }
 }
