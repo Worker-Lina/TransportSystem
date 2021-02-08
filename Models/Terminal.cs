@@ -18,20 +18,31 @@ namespace Models
 
         public string GetInformation(Card card)
         {
-            // TODO
-            throw new System.NotImplementedException();
+            string info = $"{card.RegistrationDate}\nBalanse: {card.Balance}\nNumber: {card.СardNumber}";
+            if (card is UserCard)
+            {
+                info += $"{card.UserStatus}";
+            }
+            return info;
+
         }
 
         public void ToUpBalance(Card card, int sum)
         {
-            // TODO
-            throw new System.NotImplementedException();
+            card.Balance += sum;
         }
 
         public bool Validation(Card card, out string message)
         {
             // TODO
-            throw new System.NotImplementedException();
+            if (card is BeneficiariesCard)
+            {
+                message = "Успешная валидация";
+                return true;
+            }
+
+            message = "Успешная валидация";
+            return true;
         }
     }
 }
