@@ -1,4 +1,6 @@
-﻿namespace Service
+﻿using Abstract;
+
+namespace Service
 {
     public interface ITerminal
     {

@@ -5,9 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataSource\DataSource.csproj" />
-    <ProjectReference Include="..\Models\Models.csproj" />
-    <ProjectReference Include="..\TransportSystem\UI.csproj" />
+    <ProjectReference Include="..\Abstract\Abstract.csproj" />
   </ItemGroup>
 
 </Project>
