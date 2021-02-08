@@ -2,7 +2,6 @@
 using Models;
 using System;
 
-
 namespace UI
 {
     public class Menu
